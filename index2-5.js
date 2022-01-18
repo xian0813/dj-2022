@@ -56,5 +56,29 @@ let xx = [50,100,80,50,90];
 // console.log(xx[1])
 
 for(let i=0; i < xx.length; i++){
-    console.log(xx[i]);
+    // console.log(xx[i]);
 }
+
+let card = {
+    name:'林宛璇',
+    tel: '0921560420',
+    addr:'台南市安南區安南路33號'
+};
+console.log(card.name);
+console.log(card.tel);
+console.log(card.addr);
+
+let y ='name';
+// console.log(card[y]);
+// console.log(card.職稱);
+
+let zz = 123;
+let yy = zz;
+yy = 456;
+// console.log(zz);
+
+let card1 = card;
+card1.name = '123'
+// console.log(card1)
+
+console.log(card.name);
